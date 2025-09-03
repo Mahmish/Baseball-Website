@@ -1,0 +1,1074 @@
+                                                        /* header */
+
+.banner{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./asset/images/depositphotos_175978800-stock-photo-selective-focus-man-holding-baseball.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: end;
+}
+.header{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+.logo a{
+  text-decoration: none;
+}
+.logo i{
+    font-size: 35px;
+    color: white;
+}
+.logo span{
+    font-size: 30px;
+    color: white;
+}
+.book-now-btn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #dc2626;
+    border-radius: 8px;
+    transition: 0.5s ;
+}
+.book-now-btn a:hover{
+  background-color: #b91c1c;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.menu a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid #009087;
+    transition: 0.4s linear;
+}
+
+.menu a:hover:before {
+    width: 100%;
+}
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+}
+
+.menu ul li ul.dropdown {
+    width: 200px;
+    background-color: white;
+    color: #071028;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    padding: 10px 10px;
+    display: none;
+    flex-direction: column;
+}
+
+/* Corrected rule for dropdown list items */
+.menu ul li ul.dropdown li {
+    display: block;
+}
+
+.menu ul li:hover ul.dropdown {
+    display: block;
+}
+
+.menu ul li ul.dropdown a {
+    color: #000000;
+}
+
+.menu ul li ul.dropdown a:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+.navbar{
+  display: none;
+}
+                                                /* banner */
+.banner-content h1{
+    padding-top: 18%;
+    font-size: 75px;
+    font-family: "Roboto Serif", serif;
+    text-transform: uppercase;
+}
+.banner-content span{
+    font-size: 45px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+.banner-content p{
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px 20%;
+}
+
+/* animated btn */
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5%;
+}
+.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0.7em 1.7em;
+  font-family: "Roboto Serif", serif;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0.5em;
+  border: 1px solid #e8e8e8;
+}
+
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.button2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #009087;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.button2:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+                                                    /* 2 page */
+.why-choose-us{
+  padding: 50px 0;
+  background-color: #e7e7e7;
+}
+.why-choose-tittle{
+  padding: 50px 0;
+}
+.why-choose-tittle h2{
+  font-size: 50px;
+  font-family: "Roboto Serif", serif;
+}
+.why-choose-tittle p{
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+}
+.choose-box{
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: white;
+    transition: .5s ease;
+}
+.choose-box:hover{
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.choose-box p{
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.choose-box i{
+  color: white;
+  font-size: 30px;
+  padding: 20px 40px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 11, 59);
+  border-radius: 50%;
+  margin: 10px 0 20px 0;
+}
+
+
+                                                        /* about page */
+.About-Principle-Baseball{
+  padding: 100px 0;
+}
+.properties{
+  display: flex;
+  gap: 35px;
+}
+.properties h5{
+  font-size: 25px;
+  font-weight: 700;
+  color: #162f73;
+}
+.properties span{
+  font-size: 16px;
+  color: gray;
+}
+.about-image{
+  position: relative;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.about-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: .5s ease;
+}
+.about-image img:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.about-content h2{
+  font-size: 50px;
+  font-family: "Roboto Serif", serif;
+}
+.about-content p{
+  font-size: 18px;
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  line-height: 31px;
+}
+.image-content{
+    position: absolute;
+    height: 400px;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    text-align: center;
+    transition: bottom 0.5s ease;
+    z-index: 1;
+    color: white;
+}
+.about-image:hover .image-content {
+    bottom: 0%;
+}
+.image-content i{
+  font-size: 50px;
+  color: white;
+  padding: 20px 50px ;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(11, 11, 59);
+  margin: 20px;
+}
+.image-content h4{
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.image-content span{
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.image-content p{
+  color: gray;
+  margin: 0 18%;
+}
+
+                                                        /* service page */
+.services{
+  padding: 100px 0;
+  background-color: #e7e7e7;
+}
+.service-title h2{
+  font-size: 50px;
+  font-family: "Roboto Serif", serif;
+}
+.service-title p{
+  font-size: 18px;
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  line-height: 31px;
+}
+.service-box{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: .5s ease;
+}
+.service-box:hover{
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.service-content{
+  padding: 20px;
+}
+.service-box span{
+  font-size: 25px;
+  font-weight: 700;
+  color: #162f73;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.service-box p{
+  font-size: 18px;
+  color: gray;
+  margin: 10px 0;
+}
+.service-btn a{
+  display: inline-flex;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  color: #162f73;
+  font-weight: 700;
+}
+.service-btn a:hover{
+  color: #071028;
+}
+.service-image img{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+                                                        /* principle Merch */
+.principle{
+  padding: 100px 0;
+}
+.principle-title h2{
+  font-size: 50px;
+  font-family: "Roboto Serif", serif;
+}
+.principle-title p{
+  font-size: 18px;
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  line-height: 31px;
+  margin: 10px 20%;
+}
+.principle-box{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 15px 15px;
+  margin: 10px;
+  transition: .5s ease;
+}
+.principle-box:hover{
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.principle-box span{
+  font-size: 25px;
+  font-weight: 700;
+  color: #162f73;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.principle-box p{
+  font-size: 18px;
+  color: gray;
+}
+.principle-btn a{
+  display: block;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #162f73;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.principle-btn a:hover{
+  background-color: #071028;
+}
+.principle-image img{
+  width: 30%;
+  height: 200px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+.principle-content span{
+  display: flex;
+  font-size: 25px;
+  line-height: 1;
+  /* margin-top: 20px; */
+}
+.principle-content .price{
+  font-size: 25px;
+  color: gray;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 29px;
+    color: grey;
+}
+
+
+
+                                            /* contact section */
+.contact{
+    padding: 70px 0;
+    background-color: #e7e7e7;
+}
+.contact-title h2{
+    font-size: 50px;
+  font-family: "Roboto Serif", serif;
+}
+.contact-title p{
+  font-size: 18px;
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  line-height: 31px;
+  margin: 10px 20% 50px 20%;
+}
+
+/* contact form */
+.form-group label{
+    font-weight: 600;
+
+}
+.form-group input:hover{
+    border: 2px solid #162f73;
+}
+.form-group textarea:hover{
+    border: 2px solid #162f73;
+}
+.form-group select:hover{
+    border: 2px solid #162f73;
+}
+.info-form{
+    display: flex;
+}
+.contact-form{
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form h3{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+.contact-form p{
+    font-size: 18px;
+    color: gray;
+}
+.contact-form button{
+    background-color: #162f73;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-form button:hover{
+  background-color: #071028;
+}
+
+/* contact info */
+.contact-info{
+    padding-left: 40px;
+    color: #162f73;
+}
+.contact-info h3{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+
+}
+.contact-info ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+.contact-info ul li{
+    padding: 10px 10px;
+    display: flex;
+    align-items: baseline;
+
+}
+.contact-info .detail{
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-info span{
+    padding-left: 20px;
+}
+.contact-info .contact-icon{
+    padding: 0;
+}
+.contact-info .detail a{
+  text-decoration: none;
+  color: #162f73;
+}
+
+                                                  /* footer */
+.footer{
+    background-color: #1e293b;
+    padding: 50px;
+}
+.footer-1 a{
+  text-decoration: none;
+}
+.footer-content i{
+  font-size: 35px;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer-content h5{
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+}
+.footer-1 p{
+    color: rgb(205, 196, 196);
+    font-size: 18px;
+    margin: 20px 0;
+    margin-right: 25%;
+
+}
+.footer-1 span{
+      color: rgb(205, 196, 196);
+
+  font-size: 20px;
+  font-weight: 500;
+}
+.service-link h4{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+.service-link{
+    padding-top: 20px;
+}
+.service-link ul{
+    color: rgb(205, 196, 196);
+    list-style: none;
+    font-size: 16px;
+    line-height: 2.5;
+    padding-left: 0;
+}
+.service-link a{
+  text-decoration: none;
+  color: white;
+
+}
+.quick-link h4{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+.quick-link{
+    padding-top: 20px;
+}
+.quick-link a{
+  text-decoration: none;
+  color: white;
+}
+.quick-link ul{
+    color: rgb(205, 196, 196);
+    list-style: none;
+    font-size: 16px;
+    line-height: 2;
+    padding-left: 0;
+}
+
+.contact-link{
+    padding-top: 20px;
+}
+.contact-link h4{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+.contact-link ul a{
+  text-decoration: none;
+  color: white;
+}
+.contact-link ul{
+    color: rgb(205, 196, 196);
+    list-style: none;
+    font-size: 16px;
+    line-height: 3;
+    padding-left: 0;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+
+  /* logo */
+  .logo span {
+    font-size: 25px;
+    color: white;
+}
+.logo i {
+    font-size: 25px;
+    color: white;
+}
+
+  /* navbar */
+  .navbar{
+    display: block;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .book-now-btn{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+
+.dropdown-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 2;
+}
+.dropdown-toggle:hover {
+    background-color: transparent !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; 
+    color: #212529; 
+}
+/* banner */
+.banner{
+  height: 100vh;
+}
+.banner-content h1 {
+    padding-top: 50%;
+    font-size: 35px;
+}
+.banner-content span {
+    font-size: 25px;
+}
+.banner-content p {
+    font-size: 18px;
+    margin: 20px 10%;
+}
+.button2 {
+    font-size: 14px;
+}
+
+/* why choose us page */
+.why-choose-tittle h2 {
+    font-size: 30px;
+}
+.why-choose-tittle p {
+    font-size: 15px;
+}
+.why-choose-tittle {
+  padding: 40px 0 20px 0;
+}
+.why-choose-us {
+  padding: 20px 0;
+}
+.choose-box {
+  margin-bottom: 20px;
+}
+.about-content h2 {
+    font-size: 30px;
+}
+.properties {
+    margin-bottom: 20px;
+}
+
+/* Merch page */
+.principle-title h2 {
+    font-size: 35px;
+}
+.principle-title p {
+    margin: 10px 11%;
+}
+.principle-image img {
+    height: 160px;
+    padding: 20px 0;
+}
+.principle-content span {
+    font-size: 17px;
+}
+.principle-box p {
+    font-size: 16px;
+}
+.info-form {
+    display: block;
+}
+
+/* contact form */
+.contact-form {
+  margin: 20px;
+
+}
+/* footer */
+.footer {
+    padding: 30px 0;
+}
+.contact-link ul {
+    font-size: 13px;
+    line-height: 4;
+}
+.quick-link{
+  padding: 0;
+}
+.quick-link ul{
+  line-height: 2.2;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  
+  /* logo */
+  .logo span {
+    font-size: 35px;
+    color: white;
+}
+.logo i {
+    font-size: 35px;
+    color: white;
+}
+
+  /* navbar */
+  .navbar{
+    display: block;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .book-now-btn{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+
+.dropdown-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 2;
+}
+.dropdown-toggle:hover {
+    background-color: transparent !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; 
+    color: #212529; 
+}
+
+
+/* banner */
+.banner{
+  height: 100vh;
+}
+.banner-content h1 {
+    padding-top: 50%;
+    font-size: 43px;
+}
+.banner-content span {
+    font-size: 28px;
+}
+.banner-content p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.button2 {
+    font-size: 19px;
+}
+
+/* why choose us page */
+.why-choose-tittle h2 {
+    font-size: 46px;
+}
+.choose-box {
+  margin-bottom: 20px;
+}
+
+
+.about-content h2 {
+    font-size: 43px;
+}
+.properties {
+    margin-bottom: 20px;
+}
+
+/* Merch page */
+.principle-title h2 {
+    font-size: 43px;
+}
+.principle-title p {
+    margin: 10px 11%;
+}
+.principle-image img {
+    height: 160px;
+    padding: 20px 0;
+}
+.principle-content span {
+    font-size: 17px;
+}
+.principle-box p {
+    font-size: 16px;
+}
+.info-form {
+    display: block;
+}
+
+/* contact form */
+.contact-form {
+  margin: 20px;
+
+}
+/* footer */
+.footer {
+    padding: 30px 0;
+}
+.contact-link ul {
+    font-size: 13px;
+    line-height: 4;
+}
+.quick-link{
+  padding: 0;
+}
+.quick-link ul{
+  line-height: 2.2;
+}
+
+.info-form{
+  display: block;
+}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  
+  /* logo */
+  .logo span {
+    font-size: 35px;
+    color: white;
+}
+.logo i {
+    font-size: 35px;
+    color: white;
+}
+
+  /* navbar */
+  .navbar{
+    display: block;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .book-now-btn{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+
+.dropdown-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 2;
+}
+.dropdown-toggle:hover {
+    background-color: transparent !important;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; 
+    color: #212529; 
+}
+
+
+/* banner */
+.banner{
+  height: 100vh;
+}
+.banner-content h1 {
+    padding-top: 50%;
+    font-size: 43px;
+}
+.banner-content span {
+    font-size: 28px;
+}
+.banner-content p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.button2 {
+    font-size: 19px;
+}
+
+/* why choose us page */
+.why-choose-tittle h2 {
+    font-size: 46px;
+}
+.choose-box {
+  margin-bottom: 20px;
+}
+
+
+.about-content h2 {
+    font-size: 43px;
+}
+.properties {
+    margin-bottom: 20px;
+}
+
+/* Merch page */
+.principle-title h2 {
+    font-size: 43px;
+}
+.principle-title p {
+    margin: 10px 11%;
+}
+.principle-image img {
+    height: 160px;
+    padding: 20px 0;
+}
+.principle-content span {
+    font-size: 17px;
+}
+.principle-box p {
+    font-size: 16px;
+}
+.info-form {
+    display: block;
+}
+
+/* contact form */
+.contact-form {
+  margin: 20px;
+
+}
+/* footer */
+.footer {
+    padding: 30px 0;
+}
+.contact-link ul {
+    font-size: 13px;
+    line-height: 4;
+}
+.quick-link{
+  padding: 0;
+}
+.quick-link ul{
+  line-height: 2.2;
+}
+
+.info-form{
+  display: block;
+}
+}
