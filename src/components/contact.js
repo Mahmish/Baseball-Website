@@ -18,7 +18,7 @@ export default function contact() {
             </div>
             <div className="row">
                 <div className="info-form p-0">
-                    <div className="col-lg-6 col-12 col-sm-7 col-md-7">
+                    <div className="col-lg-6 col-12 col-sm-12 col-md-7">
                         <div className="contact-form">
                             <h3>Get Started Today</h3>
                         <form>
@@ -52,7 +52,7 @@ export default function contact() {
                             </form>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-12 col-sm-5 col-md-5">
+                    <div className="col-lg-6 col-12 col-sm-12 col-md-5">
                         <div className="contact-info">
                             <h3>Visit Our Facility</h3>
                             <ul>

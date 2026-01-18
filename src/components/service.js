@@ -20,7 +20,7 @@ export default function service() {
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-12 col-sm-6 col-md-3">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-image">
                             <img src={service1} alt=""/>
@@ -34,7 +34,7 @@ export default function service() {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12 col-sm-6 col-md-3">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-image">
                             <img src={service2} alt=""/>
@@ -48,7 +48,7 @@ export default function service() {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12 col-sm-6 col-md-3">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-image">
                             <img src={service3} alt=""/>
@@ -62,7 +62,7 @@ export default function service() {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12 col-sm-6 col-md-3">
+                <div class="col-lg-3 col-12 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-image">
                             <img src={service4} alt=""/>

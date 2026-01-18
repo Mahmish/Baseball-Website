@@ -21,12 +21,6 @@ export default function header() {
                             <Link><li>About us</li></Link>
                             <li>
                                 <Link>Services</Link>
-                                <ul class="dropdown text-start">
-                                    <Link><li>Private Lessons</li></Link>
-                                    <Link><li>Cage Rental</li></Link>
-                                    <Link><li>Summer Training</li></Link>
-                                    <Link><li>Facility Rental</li></Link>
-                                </ul>
                             </li>
                             <Link><li>Merch</li></Link>
                             <Link><li>Contact Us</li></Link>
@@ -55,17 +49,11 @@ export default function header() {
                         <li class="nav-item">
                             <Link class="nav-link">ABOUT US</Link>
                         </li>
-                        <li class="nav-item dropdown">
-                            <Link class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/servicePage">SERVICES</Link>
-                            <ul class="dropdown-menu">
-                                <li><Link class="dropdown-item"Private Lessons></Link></li>
-                                <li><Link class="dropdown-item">Cage Rental</Link></li>
-                                <li><Link class="dropdown-item">Summer Training</Link></li>
-                                <li><Link class="dropdown-item">Facility Rental</Link></li>
-                            </ul>
+                        <li class="nav-item">
+                            <Link class="nav-link">SERVICE</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link">Merch</Link>
+                            <Link class="nav-link">MERCH</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link">CONTACT US</Link>

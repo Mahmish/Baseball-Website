@@ -735,21 +735,23 @@
   height: 100vh;
 }
 .banner-content h1 {
-    padding-top: 50%;
-    font-size: 35px;
+    padding-top: 68%;
+    font-size: 30px;
 }
 .banner-content span {
-    font-size: 25px;
+    font-size: 20px;
 }
-.banner-content p {
-    font-size: 18px;
-    margin: 20px 10%;
-}
+    .banner-content p {
+        font-size: 15px;
+        margin: 20px 0%;
+    }
 .button2 {
     font-size: 14px;
 }
-
 /* why choose us page */
+.about-image {
+    margin: 20px auto 0;
+}
 .why-choose-tittle h2 {
     font-size: 30px;
 }
@@ -766,25 +768,33 @@
   margin-bottom: 20px;
 }
 .about-content h2 {
-    font-size: 30px;
+    font-size: 27px;
 }
 .properties {
     margin-bottom: 20px;
 }
+.image-content span {
+    font-size: 17px;
+}
+.image-content p {
+    margin: 20px 0;
+}
 
 /* Merch page */
 .principle-title h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 .principle-title p {
-    margin: 10px 11%;
+    font-size: 13px;
+    margin: 10px 0;
+    line-height: 19px;
 }
 .principle-image img {
     height: 160px;
     padding: 20px 0;
 }
 .principle-content span {
-    font-size: 17px;
+    font-size: 25px;
 }
 .principle-box p {
     font-size: 16px;
@@ -792,7 +802,13 @@
 .info-form {
     display: block;
 }
-
+/* service  */
+.service-title h2 {
+    font-size: 30px;
+}
+.service-title p {
+    font-size: 14px;
+}
 /* contact form */
 .contact-form {
   margin: 20px;
@@ -815,59 +831,29 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
-  
-  /* logo */
-  .logo span {
-    font-size: 35px;
-    color: white;
-}
-.logo i {
-    font-size: 35px;
-    color: white;
-}
-
-  /* navbar */
-  .navbar{
-    display: block;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    margin-top: 10px;
+  /* header  */
+  .logo i {
+    font-size: 25px;
   }
-  .book-now-btn{
-    display: none;
-  }
-  .menu{
-    display: none;
-  }
-
-.dropdown-menu {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.3s linear;
+.logo span{
+  font-size: 25px;
 }
-
-.dropdown:hover > .dropdown-menu {
-    display: block;
-    visibility: visible;
-    opacity: 2;
+.menu ul {
+    font-size: 15px;
 }
-.dropdown-toggle:hover {
-    background-color: transparent !important;
+.book-now-btn a {
+    font-size: 15px;
 }
-
-.dropdown-item:hover {
-    background-color: #f8f9fa; 
-    color: #212529; 
+.header {
+    padding: 20px 0;
 }
-
 
 /* banner */
 .banner{
   height: 100vh;
 }
 .banner-content h1 {
-    padding-top: 50%;
+    padding-top: 30%;
     font-size: 43px;
 }
 .banner-content span {
@@ -898,6 +884,9 @@
 }
 
 /* Merch page */
+.principle-box{
+  height: 425px;
+}
 .principle-title h2 {
     font-size: 43px;
 }
@@ -914,33 +903,49 @@
 .principle-box p {
     font-size: 16px;
 }
+.principle-btn a {
+    font-size: 15px;
+}
 .info-form {
-    display: block;
+    display: flex;
+}
+/* service  */
+.service-box p {
+    font-size: 17px;
 }
 
 /* contact form */
 .contact-form {
-  margin: 20px;
-
+  margin: 0;
+  padding: 30px;
+}
+.contact-info .detail {
+    font-size: 15px;
 }
 /* footer */
 .footer {
     padding: 30px 0;
 }
 .contact-link ul {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 4;
+}
+.service-link {
+    padding-top: 0;
 }
 .quick-link{
   padding: 0;
 }
+.contact-link {
+    padding-top: 0;
+}
 .quick-link ul{
   line-height: 2.2;
 }
-
-.info-form{
-  display: block;
+.service-link ul {
+    line-height: 2.8;
 }
+
 }
 
 
@@ -1013,13 +1018,14 @@
 
 /* why choose us page */
 .why-choose-tittle h2 {
-    font-size: 46px;
+    font-size: 30px;
 }
-.choose-box {
+.why-choose-tittle p {
+    font-size: 16px;
+}
+.choose-box{
   margin-bottom: 20px;
 }
-
-
 .about-content h2 {
     font-size: 43px;
 }
@@ -1029,7 +1035,7 @@
 
 /* Merch page */
 .principle-title h2 {
-    font-size: 43px;
+    font-size: 42px;
 }
 .principle-title p {
     margin: 10px 11%;
@@ -1045,9 +1051,15 @@
     font-size: 16px;
 }
 .info-form {
-    display: block;
+    display: grid;
 }
-
+/* service  */
+.service-box span {
+    font-size: 22px;
+}
+.service-box p {
+    font-size: 16px;
+}
 /* contact form */
 .contact-form {
   margin: 20px;
@@ -1071,4 +1083,48 @@
 .info-form{
   display: block;
 }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+  /* merch  */
+  .principle-content span {
+    font-size: 19px;
+  }
+  .principle-box p {
+    font-size: 17px;
+  }
+  /* service  */
+  .service-box span {
+    font-size: 20px;
+  }
+  .service-box p {
+    font-size: 17px;
+  }
+  /* about  */
+  .about-content h2 {
+    font-size: 37px;
+  }
+  .about-content p {
+    font-size: 16px;
+  }
+  /* choose  */
+  .choose-box h4{
+    font-size: 20px;
+  }
+  .choose-box p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+  /* choose  */
+  .choose-box p {
+    font-size: 17px;
+  }
+  /* about  */
+  .about-content h2 {
+    font-size: 44px;
+  }
+  .service-box p {
+    font-size: 17px;
+  }
 }

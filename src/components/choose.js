@@ -16,21 +16,21 @@ export default function choose() {
             </div>
 
             <div className="row align-items-center mb-5">
-                <div className="col-lg-4 col-12 col-sm-6 col-md-4">
+                <div className="col-lg-4 col-12 col-sm-12 col-md-4">
                     <div className="choose-box text-center">
                         <i className="fa-solid fa-chart-simple"></i>
                         <h4>Cutting-Edge Technology</h4>
                         <p>Advanced measurement and tracking systems to monitor your progress and optimize performance.</p>
                     </div>
                 </div>
-                <div className="col-lg-4 col-12 col-sm-6 col-md-4">
+                <div className="col-lg-4 col-12 col-sm-12 col-md-4">
                     <div className="choose-box text-center">
                         <i className="fa-solid fa-book-open"></i>
                         <h4>Professional Expertise</h4>
                         <p>Learn from Phillip Cuevas, former professional player with proven biomechanical training methods.</p>
                     </div>
                 </div>
-                <div className="col-lg-4 col-12 sol-sm-6 col-md-4">
+                <div className="col-lg-4 col-12 col-sm-12 col-md-4">
                     <div className="choose-box text-center">
                         <i className="fa-solid fa-bolt"></i>
                         <h4>Skill Automation</h4>

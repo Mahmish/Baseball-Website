@@ -78,7 +78,7 @@ export default function Merch() {
                     <div className="principle-box">
                       <div className="principle-image">
                         <img src={jersey} alt="Official Team Jersey" />
-                        <div className="princIDle-content">
+                        <div className="principle-content">
                           <span>Official Team Jersey</span>
                           <p>Premium moisture-wicking fabric with official Principle Baseball logo and player numbers</p>
                           <span className="price">$65.00</span>
@@ -92,7 +92,7 @@ export default function Merch() {
                   <div className="col-lg-4">
                     <div className="principle-box">
                       <div className="principle-image">
-                        <img src={cap} />
+                        <img src={cap} alt='cap'/>
                         <div className="principle-content">
                           <span>Classic Team Cap</span>
                           <p>Structured 6-panel design with embroidered logo and adjustable strap for perfect fit</p>
