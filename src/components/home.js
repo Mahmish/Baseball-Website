@@ -6,7 +6,8 @@ import Service from '../components/service';
 import Merch from '../components/merch';
 import Contact from '../components/contact';
 
-export default function home() {
+
+export default function Home() {
   return (
     <div>
       <Banner/>
