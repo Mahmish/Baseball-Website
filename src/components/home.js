@@ -1,10 +1,10 @@
 import React from 'react';
-import Banner from '../components/banner';
-import Choose from '../components/choose';
-import About from '../components/about';
-import Service from '../components/service';
-import Merch from '../components/merch';
-import Contact from '../components/contact';
+import Banner from './banner';
+import Choose from './choose';
+import About from './about';
+import Service from './service';
+import Merch from './merch';
+import Contact from './contact';
 
 
 export default function Home() {
