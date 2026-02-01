@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Baseball-Website/static/css/main.ce42e532.css",
-    "main.js": "/Baseball-Website/static/js/main.90274739.js",
+    "main.js": "/Baseball-Website/static/js/main.3cb1796c.js",
     "static/js/453.d505a16f.chunk.js": "/Baseball-Website/static/js/453.d505a16f.chunk.js",
     "static/media/side-view-kid-waiting-field.jpg": "/Baseball-Website/static/media/side-view-kid-waiting-field.bcc8ae125af4e4a048c4.jpg",
     "static/media/full-shot-kids-playing-kickball.jpg": "/Baseball-Website/static/media/full-shot-kids-playing-kickball.0417a6369129f1ef26e4.jpg",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/Baseball-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Baseball-Website/static/media/slick.295183786cd8a1389865.woff",
     "main.ce42e532.css.map": "/Baseball-Website/static/css/main.ce42e532.css.map",
-    "main.90274739.js.map": "/Baseball-Website/static/js/main.90274739.js.map",
+    "main.3cb1796c.js.map": "/Baseball-Website/static/js/main.3cb1796c.js.map",
     "453.d505a16f.chunk.js.map": "/Baseball-Website/static/js/453.d505a16f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce42e532.css",
-    "static/js/main.90274739.js"
+    "static/js/main.3cb1796c.js"
   ]
 }
