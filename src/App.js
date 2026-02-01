@@ -10,9 +10,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/baseball-website">
         <Header/>
-        <Home/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
         <Footer/>
       </Router>
     </div>

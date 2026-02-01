@@ -5,17 +5,17 @@ export default function header() {
   return (
     <div>
       {/* <!-- Header --> */}
-    <header class="header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-12 col-sm-6 col-md-3">
-                    <div class="logo">
-                        <Link><i class="fa-solid fa-baseball"></i>
+    <header className="header">
+        <div className="container">
+            <div className="row align-items-center">
+                <div className="col-lg-3 col-12 col-sm-6 col-md-3">
+                    <div className="logo">
+                        <Link><i className="fa-solid fa-baseball"></i>
                         <span>BASEBALL</span></Link>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-md-6 text-end p-0">
-                    <div class="menu">
+                <div className="col-lg-6 col-sm-6 col-md-6 text-end p-0">
+                    <div className="menu">
                         <ul>
                             <Link><li>Home</li></Link>
                             <Link><li>About us</li></Link>
@@ -27,8 +27,8 @@ export default function header() {
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 col-sm-3 col-md-3">
-                        <div class="book-now-btn text-end">
+                <div className="col-lg-3 col-6 col-sm-3 col-md-3">
+                        <div className="book-now-btn text-end">
                             <Link>Book Now</Link>
                         </div>
                     </div>
@@ -36,27 +36,27 @@ export default function header() {
         </div>
 
         {/* <!-- col navbar --> */}
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg ">
+            <div className="container-fluid">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" to="/">HOME</Link>
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link">ABOUT US</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link">ABOUT US</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link">SERVICE</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link">SERVICE</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link">MERCH</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link">MERCH</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link">CONTACT US</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link">CONTACT US</Link>
                         </li>
                     </ul>
                 </div>

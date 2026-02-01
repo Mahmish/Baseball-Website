@@ -6,21 +6,21 @@ export default function footer() {
     <div>
       
     {/* <!-- footer --> */}
-    <footer class="footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-12 col-sm-12 col-xl-4 col-xxl-4 col-md-12 col-12">
-                    <div class="footer-1">
-                    <Link><div class="footer-content">
-                        <i class="fa-solid fa-baseball"></i>
-                            <h5 class="text-white">BASEBALL</h5>
+    <footer className="footer">
+        <div className="container">
+            <div className="row align-items-center">
+                <div className="col-lg-4 col-12 col-sm-12 col-xl-4 col-xxl-4 col-md-12 col-12">
+                    <div className="footer-1">
+                    <Link><div className="footer-content">
+                        <i className="fa-solid fa-baseball"></i>
+                            <h5 className="text-white">BASEBALL</h5>
                         </div></Link>
                         <span>Automate Your Skills</span>
                          <p>High-performance training facility founded by former professional player Phillip Cuevas.</p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-3 col-sm-12 col-md-3 col-xl-2 col-xxl-2 col-12">
-                    <div class="service-link">
+                <div className="col-lg-2 col-3 col-sm-12 col-md-3 col-xl-2 col-xxl-2 col-12">
+                    <div className="service-link">
                         <h4>Services</h4>
                         <ul>
                         <Link><li>Private Lessons</li></Link>
@@ -30,8 +30,8 @@ export default function footer() {
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-4 col-sm-12 col-md-3 col-xl-2 col-xxl-2 col-12">
-                    <div class="quick-link ">
+                <div className="col-lg-2 col-4 col-sm-12 col-md-3 col-xl-2 col-xxl-2 col-12">
+                    <div className="quick-link ">
                         <h4>Quick Links</h4>
                         <ul>
                             <Link><li>Home</li></Link>
@@ -43,21 +43,21 @@ export default function footer() {
                     </div>
                 </div>
                 
-                <div class="col-lg-4 col-5 col-sm-12 col-md-6 col-xl-4 col-xxl-4 col-12">
-                        <div class="contact-link text-white">
+                <div className="col-lg-4 col-5 col-sm-12 col-md-6 col-xl-4 col-xxl-4 col-12">
+                        <div className="contact-link text-white">
                             <h4>Contact Info</h4>
                             <ul>
                                 <li>
-                                <Link><i class="fa-solid fa-location-dot"></i>
-                                    <span class="detail">123 Baseball Drive Training City, TC 12345</span></Link>
+                                <Link><i className="fa-solid fa-location-dot"></i>
+                                    <span className="detail">123 Baseball Drive Training City, TC 12345</span></Link>
                                 </li>
                                 <li>
-                                <Link><i class="fa-solid fa-phone"></i>
-                                <span class="detail">(575) 706-7288</span></Link>
+                                <Link><i className="fa-solid fa-phone"></i>
+                                <span className="detail">(575) 706-7288</span></Link>
                                 </li>
                                 <li>
-                                <Link><i class="fa-solid fa-envelope"></i>
-                                <span class="detail">info@principlebaseball.com</span></Link>
+                                <Link><i className="fa-solid fa-envelope"></i>
+                                <span className="detail">info@principlebaseball.com</span></Link>
                                 </li>
                             </ul>
                         </div>
